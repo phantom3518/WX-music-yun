@@ -1,0 +1,27 @@
+<view class="container">
+  <!-- 头部 -->
+  <view class="header">
+    <view class="publish-container" bind:tap="onPublish">
+      <i class="iconfont icon-fabu"></i>
+    </view>
+    <view class="search-container">
+      <x-search bind:search="onSearch"/>
+    </view>
+  </view>
+  <!-- 博客卡片页面 -->
+  <view class="blog-list">
+  </view>
+  <block wx:for="{{blogList}}" wx:key="_id">
+    <view class="blog-panel">
+      <x-blog-card blog="{{item}}" data-blogid="{{item._id}}" bind:tap="goComment" ></x-blog-card>
+      <x-blog-ctrl blogId="{{item._id}}" blog="{{item}}" />
+    </view>
+  </block>
+  <!-- 底部弹出层 -->
+  <x-login modelShow="{{modelShow}}"
+   bind:loginsuccess="onLoginSuccess"
+   bind:loginfail="onLoginFail"
+  >
+  </x-login>
+</view>
+

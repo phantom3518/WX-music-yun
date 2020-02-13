@@ -1,0 +1,84 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"enhance": true
+	},
+	"appid": "wx6cb7ab8a6a9c263c",
+	"projectname": "music-yun",
+	"libVersion": "2.8.1",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "demo",
+					"pathName": "pages/demo/demo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "musiclist",
+					"pathName": "pages/musiclist/musiclist",
+					"query": "playlistId= 2602222983",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "blog",
+					"pathName": "pages/blog/blog",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 4,
+					"name": "blog-edit",
+					"pathName": "pages/blog-edit/blog-edit",
+					"query": "avatarUrl=\"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKQvK6qicyk2kvN2Giafp371bJRgv7eWsSHet44uxgnuyiaRFRmaiaPh7ysicOz2fFQXliaRHrVnAuFeELQ/132\"&nikeName=\"图图\"",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "profile",
+					"pathName": "pages/profile/profile",
+					"query": "avatarUrl=\"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKQvK6qicyk2kvN2Giafp371bJRgv7eWsSHet44uxgnuyiaRFRmaiaPh7ysicOz2fFQXliaRHrVnAuFeELQ/132\"&nikeName=\"图图\"",
+					"scene": null
+				}
+			]
+		}
+	}
+}

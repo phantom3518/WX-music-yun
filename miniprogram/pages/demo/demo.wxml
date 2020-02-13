@@ -1,0 +1,14 @@
+<!--pages/demo/demo.wxml-->
+<button bind:tap="getMusicInfo">获取音乐信息</button>
+<button bind:tap="getMovieInfo">获取电影信息</button>
+
+
+<!-- 开放能力获取自己数据 -->
+<open-data type="userAvatarUrl"></open-data>
+<open-data type="userNickName"></open-data>
+<open-data type="userCountry"></open-data>
+<open-data type="userCity"></open-data>
+<button open-type="getUserInfo" bindgetuserinfo="onGetUserInfo">获取用户信息</button>
+<button bind:tap="getOpenid">获取openid</button>
+<view>{{number}}</view>
+<button bind:tap="add">add</button>

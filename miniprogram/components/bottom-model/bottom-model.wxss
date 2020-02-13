@@ -1,0 +1,25 @@
+.model {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index:100;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+.panel {
+  width: 100%;
+  min-height: 300rpx;
+  box-sizing: border-box;
+  background: #fefefe;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+}
+.delete {
+  position: absolute;
+  right: 0;
+  margin: 30rpx;  
+}

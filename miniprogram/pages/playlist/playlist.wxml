@@ -1,0 +1,15 @@
+<!-- 首页轮播图 -->
+<swiper indicator-dots="true" autoplay="true" interval="3000" duration="1000">
+  <block wx:for="{{swiperImgUrls}}" wx:key="url">
+    <swiper-item>
+      <image src="{{item.fileid}}" mode="widthFix" class="img"></image>
+    </swiper-item>
+  </block>
+</swiper>
+<!-- 首页歌单列表 -->
+<view class="playlist-container">
+  <block wx:for="{{playlist}}" wx:key="_id">
+    <t-playlist playlist="{{item}}"></t-playlist>
+  </block>
+</view>
+

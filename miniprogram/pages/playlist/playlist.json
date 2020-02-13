@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "t-playlist":"/components/playlist/playlist"
+  },
+  "enablePullDownRefresh": true
+}

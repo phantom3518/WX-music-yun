@@ -1,0 +1,56 @@
+.ctrl {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  height: 100%;
+}
+.ctrl-item {
+  flex: 1;
+  display: flex;
+  height: 60rpx;
+  background: #fff;
+  font-size: 26rpx;
+  color: rgba(40, 47, 60, 0.8);
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.ctrl-item .icon {
+  margin-right: 12rpx;
+  font-size: 32rpx;
+}
+.send {
+  background: #d43c33;
+  color: #fff;
+  font-size: 24rpx;
+  position: absolute;
+  right: 20rpx;
+  bottom: 20rpx;
+}
+.comment-content {
+  width: 560rpx;
+  text-align: left;
+  padding: 20rpx;
+  font-size: 32rpx;
+}
+.share-btn {
+  background-color: #fff;
+  color: rgba(40, 47, 60, 0.8);
+  padding: 0;
+  height: 100%;
+  border: none;
+  font-size: 24rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.share-btn::after {
+  display: none;
+}
+
+.share-hover::after {
+  border: 0;
+}

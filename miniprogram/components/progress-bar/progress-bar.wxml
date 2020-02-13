@@ -1,0 +1,22 @@
+<!--进度条组件-->
+<view class="container">
+  <text class="time">{{showTime.currentTime}}</text>
+  <view class="control">
+<!-- 
+  <view>
+  <slider bindchange="slider4change" backgroundColor="#ccc" value="{{progress*2}}"  block-size="12" min="0" max="200" activeColor="#fefefe" show-value/>
+  </view> -->
+    <movable-area class="movable-area">
+      <movable-view direction="horizontal" class="movable-view" 
+        damping="1000" x="{{movableDis}}" bindchange="onChange"
+        bindtouchend="onTouchEnd"
+      />
+    </movable-area>
+    <progress stroke-width="4" backgroundColor="#969696"
+    activeColor="#fff" percent="{{progress}}"></progress>
+  </view>
+  <text class="time">{{showTime.totalTime}}</text>
+
+
+</view>
+

@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding:0 20rpx;
+  height: 100rpx;
+  width: 100%;
+  z-index: 99;
+  box-sizing: border-box;
+  background: #fff;
+
+}
+.header .icon-fabu {
+  font-size: 48rpx
+}
+.publish-container {
+  display: flex;
+  /* background: hotpink; */
+  width: 68rpx;
+  height: 68rpx;
+  align-items: center;
+  justify-content: center;
+}
+.search-container {
+  flex: 1;
+}
+.blog-list {
+  margin-top: 120rpx;
+}
+.blog-panel {
+  margin-bottom: 20rpx;
+  box-sizing: border-box;
+}

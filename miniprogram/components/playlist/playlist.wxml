@@ -1,0 +1,6 @@
+<!-- 首页 单个歌单 组件 -->
+<view class="playlist-container" bind:tap="goToMusiclist">
+  <image src="{{playlist.picUrl}}" lazy-load="true" class="playlist-img"></image>
+  <text class="playlist-count">{{_count}}</text>
+  <view class="playlist-name">{{playlist.name}}</view>
+</view>
