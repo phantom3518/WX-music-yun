@@ -1,3 +1,4 @@
+![image](https://github.com/phantom3518/WX-music-yun/blob/WX-musicyun/Preview/QQ%E6%88%AA%E5%9B%BE20200213144205.png)
 # 云开发 quickstart
 
 这是云开发的快速启动指引，其中演示了如何上手使用云开发的三大基础能力：
@@ -10,5 +11,5 @@
 
 - [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
 
-![](https://github.com/phantom3518/WX-music-yun/blob/WX-musicyun/Preview/QQ%E6%88%AA%E5%9B%BE20200213144205.png)
+
 
