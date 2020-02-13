@@ -10,5 +10,5 @@
 
 - [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
 
-![](https://gitee.com/phantom3518/WX-music-yun/blob/WX-musicyun/PreviewImg/QQ%E6%88%AA%E5%9B%BE20200213144205.png)
+![](https://github.com/phantom3518/WX-music-yun/blob/WX-musicyun/Preview/QQ%E6%88%AA%E5%9B%BE20200213144205.png)
 
